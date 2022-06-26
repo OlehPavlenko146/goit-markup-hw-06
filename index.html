@@ -446,7 +446,7 @@
               <input
                 class="email-footer"
                 type="email"
-                name="email"
+                name="email-footer"
                 placeholder="E-mail"
               />
               <button type="submit" class="subscribe-btn">Подписаться</button>
@@ -470,6 +470,7 @@
             <input
               class="modal-input"
               type="text"
+              name="username"
               id="user-name"
               placeholder=""
               required
@@ -483,6 +484,7 @@
             <input
               class="modal-input"
               type="tel"
+              name="pnone-number"
               id="phone-number"
               placeholder=""
               required
@@ -497,7 +499,13 @@
 
           <label for="email" class="modal-label">Почта</label>
           <div class="modal-field">
-            <input class="modal-input" type="email" id="email" placeholder="" />
+            <input
+              class="modal-input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder=""
+            />
             <svg class="icon-email" width="18" height="18">
               <use href="./imges/icons.svg#email"></use>
             </svg>
